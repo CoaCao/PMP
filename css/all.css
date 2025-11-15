@@ -16924,8 +16924,8 @@ iframe.mm_iframe {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-	src: url(D:/Codes/PMP/fonts/fa-regular-400.woff2) format('woff2'),
-        url(D:/Codes/PMP/fonts/fa-regular-400.ttf) format('truetype');
+	src: url(https://coacao.github.io/PMP/fonts/fa-regular-400.woff2) format('woff2'),
+        url(https://coacao.github.io/PMP/fonts/fa-regular-400.ttf) format('truetype');
 }
 .far,
 .fa-regular {
