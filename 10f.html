@@ -8,46 +8,9 @@
     <meta name="keywords"
         content="moodle, 10f. PMP Full Test">
     <link rel="stylesheet" type="text/css"
-        href="https://lms.atoha.com/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css">
-    <!-- <script charset="utf-8" id="yui_3_18_1_1_1763134833685_8"
-        src="https://lms.atoha.com/lib/javascript.php/1758184161/question/qengine.js" async=""></script>
-    <script charset="utf-8" id="yui_3_18_1_1_1763134833685_9"
-        src="https://lms.atoha.com/lib/javascript.php/1758184161/mod/quiz/module.js" async=""></script>
-    <script charset="utf-8" id="yui_3_18_1_1_1763134833685_10"
-        src="https://lms.atoha.com/theme/yui_combo.php?3.18.1/event-mousewheel/event-mousewheel-min.js&amp;3.18.1/event-resize/event-resize-min.js&amp;3.18.1/event-hover/event-hover-min.js&amp;3.18.1/event-touch/event-touch-min.js&amp;3.18.1/event-move/event-move-min.js&amp;3.18.1/event-flick/event-flick-min.js&amp;3.18.1/event-valuechange/event-valuechange-min.js&amp;3.18.1/event-tap/event-tap-min.js"
-        async=""></script>
-    <script charset="utf-8" id="yui_3_18_1_1_1763134833685_248371"
-        src="https://lms.atoha.com/lib/javascript.php/1758184161/question/flags.js" async=""></script>
-    <script id="firstthemesheet"
-        type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script> -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://lms.atoha.com/theme/styles.php/edma/1758184161_1/all"> -->
+        href="https://coacao.github.io/PMP/css/yui-moodlesimple-min.css">
     <link rel="stylesheet" type="text/css" href="https://coacao.github.io/PMP/css/all.css">
-    <script>
-        //<![CDATA[
-                // var M = {}; M.yui = {};
-        // M.pageloadstarttime = new Date();
-        // M.cfg = { "wwwroot": "https:\/\/lms.atoha.com", "apibase": "https:\/\/lms.atoha.com\/r.php\/api", "homeurl": {}, "sesskey": "Kd1VVkWXUh", "sessiontimeout": "28800", "sessiontimeoutwarning": "1200", "themerev": "1758184161", "slasharguments": 1, "theme": "edma", "iconsystemmodule": "core\/icon_system_fontawesome", "jsrev": "1758184161", "admin": "admin", "svgicons": true, "usertimezone": "Asia\/Ho_Chi_Minh", "language": "en", "courseId": 314, "courseContextId": 9058, "contextid": 9293, "contextInstanceId": 6071, "langrev": 1758184161, "templaterev": "1758184161", "siteId": 1, "userId": 4548 }; var yui1ConfigFn = function (me) { if (/-skin|reset|fonts|grids|base/.test(me.name)) { me.type = 'css'; me.path = me.path.replace(/\.js/, '.css'); me.path = me.path.replace(/\/yui2-skin/, '/assets/skins/sam/yui2-skin') } };
-        // var yui2ConfigFn = function (me) {
-        //     var parts = me.name.replace(/^moodle-/, '').split('-'), component = parts.shift(), module = parts[0], min = '-min'; if (/-(skin|core)$/.test(me.name)) { parts.pop(); me.type = 'css'; min = '' }
-        //     if (module) { var filename = parts.join('-'); me.path = component + '/' + module + '/' + filename + min + '.' + me.type } else { me.path = component + '/' + component + '.' + me.type }
-        // };
-        // YUI_config = { "debug": false, "base": "https:\/\/lms.atoha.com\/lib\/yuilib\/3.18.1\/", "comboBase": "https:\/\/lms.atoha.com\/theme\/yui_combo.php?", "combine": true, "filter": null, "insertBefore": "firstthemesheet", "groups": { "yui2": { "base": "https:\/\/lms.atoha.com\/lib\/yuilib\/2in3\/2.9.0\/build\/", "comboBase": "https:\/\/lms.atoha.com\/theme\/yui_combo.php?", "combine": true, "ext": false, "root": "2in3\/2.9.0\/build\/", "patterns": { "yui2-": { "group": "yui2", "configFn": yui1ConfigFn } } }, "moodle": { "name": "moodle", "base": "https:\/\/lms.atoha.com\/theme\/yui_combo.php?m\/1758184161\/", "combine": true, "comboBase": "https:\/\/lms.atoha.com\/theme\/yui_combo.php?", "ext": false, "root": "m\/1758184161\/", "patterns": { "moodle-": { "group": "moodle", "configFn": yui2ConfigFn } }, "filter": null, "modules": { "moodle-core-chooserdialogue": { "requires": ["base", "panel", "moodle-core-notification"] }, "moodle-core-blocks": { "requires": ["base", "node", "io", "dom", "dd", "dd-scroll", "moodle-core-dragdrop", "moodle-core-notification"] }, "moodle-core-actionmenu": { "requires": ["base", "event", "node-event-simulate"] }, "moodle-core-dragdrop": { "requires": ["base", "node", "io", "dom", "dd", "event-key", "event-focus", "moodle-core-notification"] }, "moodle-core-handlebars": { "condition": { "trigger": "handlebars", "when": "after" } }, "moodle-core-maintenancemodetimer": { "requires": ["base", "node"] }, "moodle-core-notification": { "requires": ["moodle-core-notification-dialogue", "moodle-core-notification-alert", "moodle-core-notification-confirm", "moodle-core-notification-exception", "moodle-core-notification-ajaxexception"] }, "moodle-core-notification-dialogue": { "requires": ["base", "node", "panel", "escape", "event-key", "dd-plugin", "moodle-core-widget-focusafterclose", "moodle-core-lockscroll"] }, "moodle-core-notification-alert": { "requires": ["moodle-core-notification-dialogue"] }, "moodle-core-notification-confirm": { "requires": ["moodle-core-notification-dialogue"] }, "moodle-core-notification-exception": { "requires": ["moodle-core-notification-dialogue"] }, "moodle-core-notification-ajaxexception": { "requires": ["moodle-core-notification-dialogue"] }, "moodle-core-event": { "requires": ["event-custom"] }, "moodle-core-lockscroll": { "requires": ["plugin", "base-build"] }, "moodle-core_availability-form": { "requires": ["base", "node", "event", "event-delegate", "panel", "moodle-core-notification-dialogue", "json"] }, "moodle-course-categoryexpander": { "requires": ["node", "event-key"] }, "moodle-course-dragdrop": { "requires": ["base", "node", "io", "dom", "dd", "dd-scroll", "moodle-core-dragdrop", "moodle-core-notification", "moodle-course-coursebase", "moodle-course-util"] }, "moodle-course-util": { "requires": ["node"], "use": ["moodle-course-util-base"], "submodules": { "moodle-course-util-base": {}, "moodle-course-util-section": { "requires": ["node", "moodle-course-util-base"] }, "moodle-course-util-cm": { "requires": ["node", "moodle-course-util-base"] } } }, "moodle-course-management": { "requires": ["base", "node", "io-base", "moodle-core-notification-exception", "json-parse", "dd-constrain", "dd-proxy", "dd-drop", "dd-delegate", "node-event-delegate"] }, "moodle-form-dateselector": { "requires": ["base", "node", "overlay", "calendar"] }, "moodle-form-shortforms": { "requires": ["node", "base", "selector-css3", "moodle-core-event"] }, "moodle-question-searchform": { "requires": ["base", "node"] }, "moodle-question-chooser": { "requires": ["moodle-core-chooserdialogue"] }, "moodle-availability_completion-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-availability_date-form": { "requires": ["base", "node", "event", "io", "moodle-core_availability-form"] }, "moodle-availability_grade-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-availability_group-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-availability_grouping-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-availability_profile-form": { "requires": ["base", "node", "event", "moodle-core_availability-form"] }, "moodle-mod_assign-history": { "requires": ["node", "transition"] }, "moodle-mod_customcert-rearrange": { "requires": ["dd-delegate", "dd-drag"] }, "moodle-mod_quiz-autosave": { "requires": ["base", "node", "event", "event-valuechange", "node-event-delegate", "io-form", "datatype-date-format"] }, "moodle-mod_quiz-modform": { "requires": ["base", "node", "event"] }, "moodle-mod_quiz-quizbase": { "requires": ["base", "node"] }, "moodle-mod_quiz-dragdrop": { "requires": ["base", "node", "io", "dom", "dd", "dd-scroll", "moodle-core-dragdrop", "moodle-core-notification", "moodle-mod_quiz-quizbase", "moodle-mod_quiz-util-base", "moodle-mod_quiz-util-page", "moodle-mod_quiz-util-slot", "moodle-course-util"] }, "moodle-mod_quiz-questionchooser": { "requires": ["moodle-core-chooserdialogue", "moodle-mod_quiz-util", "querystring-parse"] }, "moodle-mod_quiz-toolboxes": { "requires": ["base", "node", "event", "event-key", "io", "moodle-mod_quiz-quizbase", "moodle-mod_quiz-util-slot", "moodle-core-notification-ajaxexception"] }, "moodle-mod_quiz-util": { "requires": ["node", "moodle-core-actionmenu"], "use": ["moodle-mod_quiz-util-base"], "submodules": { "moodle-mod_quiz-util-base": {}, "moodle-mod_quiz-util-slot": { "requires": ["node", "moodle-mod_quiz-util-base"] }, "moodle-mod_quiz-util-page": { "requires": ["node", "moodle-mod_quiz-util-base"] } } }, "moodle-message_airnotifier-toolboxes": { "requires": ["base", "node", "io"] }, "moodle-report_eventlist-eventfilter": { "requires": ["base", "event", "node", "node-event-delegate", "datatable", "autocomplete", "autocomplete-filters"] }, "moodle-report_loglive-fetchlogs": { "requires": ["base", "event", "node", "io", "node-event-delegate"] }, "moodle-gradereport_history-userselector": { "requires": ["escape", "event-delegate", "event-key", "handlebars", "io-base", "json-parse", "moodle-core-notification-dialogue"] }, "moodle-qbank_editquestion-chooser": { "requires": ["moodle-core-chooserdialogue"] }, "moodle-tool_lp-dragdrop-reorder": { "requires": ["moodle-core-dragdrop"] }, "moodle-assignfeedback_editpdf-editor": { "requires": ["base", "event", "node", "io", "graphics", "json", "event-move", "event-resize", "transition", "querystring-stringify-simple", "moodle-core-notification-dialog", "moodle-core-notification-alert", "moodle-core-notification-warning", "moodle-core-notification-exception", "moodle-core-notification-ajaxexception"] } } }, "gallery": { "name": "gallery", "base": "https:\/\/lms.atoha.com\/lib\/yuilib\/gallery\/", "combine": true, "comboBase": "https:\/\/lms.atoha.com\/theme\/yui_combo.php?", "ext": false, "root": "gallery\/1758184161\/", "patterns": { "gallery-": { "group": "gallery" } } } }, "modules": { "core_filepicker": { "name": "core_filepicker", "fullpath": "https:\/\/lms.atoha.com\/lib\/javascript.php\/1758184161\/repository\/filepicker.js", "requires": ["base", "node", "node-event-simulate", "json", "async-queue", "io-base", "io-upload-iframe", "io-form", "yui2-treeview", "panel", "cookie", "datatable", "datatable-sort", "resize-plugin", "dd-plugin", "escape", "moodle-core_filepicker", "moodle-core-notification-dialogue"] }, "core_comment": { "name": "core_comment", "fullpath": "https:\/\/lms.atoha.com\/lib\/javascript.php\/1758184161\/comment\/comment.js", "requires": ["base", "io-base", "node", "json", "yui2-animation", "overlay", "escape"] }, "core_question_engine": { "name": "core_question_engine", "fullpath": "https:\/\/lms.atoha.com\/lib\/javascript.php\/1758184161\/question\/qengine.js", "requires": ["node", "event"] }, "mod_quiz": { "name": "mod_quiz", "fullpath": "https:\/\/lms.atoha.com\/lib\/javascript.php\/1758184161\/mod\/quiz\/module.js", "requires": ["base", "dom", "event-delegate", "event-key", "core_question_engine"] }, "core_question_flags": { "name": "core_question_flags", "fullpath": "https:\/\/lms.atoha.com\/lib\/javascript.php\/1758184161\/question\/flags.js", "requires": ["base", "dom", "event-delegate", "io-base"] } }, "logInclude": [], "logExclude": [], "logLevel": null };
-                // M.yui.loader = { modules: {} };
-
-        //]]>
-    </script>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first"
-        src="https://lms.atoha.com/lib/requirejs.php/1758184161/core/first.js"></script> -->
-    <!-- <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_"
-        data-requiremodule="core/scroll_manager"
-        src="https://lms.atoha.com/lib/requirejs.php/1758184161/core/scroll_manager.js"></script>
-    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryprivate"
-        src="https://lms.atoha.com/lib/javascript.php/1758184161/lib/requirejs/jquery-private.js"></script> -->
-    <!-- <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery"
-        src="https://lms.atoha.com/lib/javascript.php/1758184161/lib/jquery/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script> -->
     <style type="text/css">
         .CtxtMenu_InfoClose {
             top: .2em;
@@ -864,7 +827,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -952,7 +915,7 @@
                                                     </p>
                                                     <p dir="ltr"><span
                                                             style="font-size: 0.9375rem; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;"><img
-                                                                src="https://lms.atoha.com/pluginfile.php/9293/question/generalfeedback/916975/1/1693678/image.png"
+                                                                src="https://coacao.github.io/PMP/images/q_01_image.png"
                                                                 alt="" role="presentation" class="img-fluid"><br></span>
                                                     </p>
                                                 </div>
@@ -977,7 +940,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -1103,7 +1066,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -1196,7 +1159,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -1291,7 +1254,7 @@
                                                 id="q916975:5_:flaggedcheckbox" name="q916975:5_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -1391,7 +1354,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -1485,7 +1448,7 @@
                                                 id="q916975:7_:flaggedcheckbox" name="q916975:7_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -1588,7 +1551,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -1690,7 +1653,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -1786,7 +1749,7 @@
                                                 id="q916975:10_:flaggedcheckbox" name="q916975:10_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -1899,7 +1862,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -2010,7 +1973,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -2106,7 +2069,7 @@
                                                 id="q916975:13_:flaggedcheckbox" name="q916975:13_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -2235,7 +2198,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -2338,7 +2301,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -2456,7 +2419,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -2559,7 +2522,7 @@
                                                 id="q916975:17_:flaggedcheckbox" name="q916975:17_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -2663,7 +2626,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -2756,7 +2719,7 @@
                                                 id="q916975:19_:flaggedcheckbox" name="q916975:19_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -2858,7 +2821,7 @@
                                                 id="q916975:20_:flaggedcheckbox" name="q916975:20_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -2954,7 +2917,7 @@
                                                 id="q916975:21_:flaggedcheckbox" name="q916975:21_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -3044,7 +3007,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -3181,7 +3144,7 @@
                                                 id="q916975:23_:flaggedcheckbox" name="q916975:23_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -3291,7 +3254,7 @@
                                                 id="q916975:24_:flaggedcheckbox" name="q916975:24_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -3401,7 +3364,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -3494,7 +3457,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -3592,7 +3555,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -3606,7 +3569,7 @@
                                                 evaluates both the probability of occurrence and the impact of the risk
                                                 if it occurs. <br><br>The team uses a 1-5 scale (1 is the lowest and 5
                                                 is the highest).<br><br><img
-                                                    src="https://lms.atoha.com/pluginfile.php/9293/question/questiontext/916975/27/1693892/A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-11-25%20lu%CC%81c%2015.03.54.png"
+                                                    src="https://coacao.github.io/PMP/images/q_27.png"
                                                     alt="" role="presentation" class="img-fluid"><br><br>Based on the
                                                 table in what order should the project manager rank these risks for risk
                                                 management purposes?</div>
@@ -3686,7 +3649,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -3775,7 +3738,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -3869,7 +3832,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -3962,7 +3925,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -4055,7 +4018,7 @@
                                                 id="q916975:32_:flaggedcheckbox" name="q916975:32_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -4159,7 +4122,7 @@
                                                 id="q916975:33_:flaggedcheckbox" name="q916975:33_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -4279,7 +4242,7 @@
                                                 id="q916975:34_:flaggedcheckbox" name="q916975:34_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -4754,7 +4717,7 @@
                                                 id="q916975:35_:flaggedcheckbox" name="q916975:35_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -4858,7 +4821,7 @@
                                                 id="q916975:36_:flaggedcheckbox" name="q916975:36_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -4954,7 +4917,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -5049,7 +5012,7 @@
                                                 id="q916975:38_:flaggedcheckbox" name="q916975:38_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -5143,7 +5106,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -5157,7 +5120,7 @@
                                                 evaluates both the probability of occurrence and the impact of the risk
                                                 if it occurs. <br><br>The team uses a 1-5 scale (1 is the lowest and 5
                                                 is the highest).<br><br><img
-                                                    src="https://lms.atoha.com/pluginfile.php/9293/question/questiontext/916975/39/1693913/A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-11-25%20lu%CC%81c%2015.09.49.png"
+                                                    src="https://coacao.github.io/PMP/images/q_39.png"
                                                     alt="" role="presentation" class="img-fluid"><br><br>Based on the
                                                 above information, in what order should the project manager rank these
                                                 risks for risk management purposes?</div>
@@ -5235,7 +5198,7 @@
                                                 id="q916975:40_:flaggedcheckbox" name="q916975:40_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -5329,7 +5292,7 @@
                                                 id="q916975:41_:flaggedcheckbox" name="q916975:41_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -5430,7 +5393,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -5516,7 +5479,7 @@
                                                 id="q916975:43_:flaggedcheckbox" name="q916975:43_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -5610,7 +5573,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -5737,7 +5700,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -5832,7 +5795,7 @@
                                                 id="q916975:46_:flaggedcheckbox" name="q916975:46_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -5932,7 +5895,7 @@
                                                 id="q916975:47_:flaggedcheckbox" name="q916975:47_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -6031,7 +5994,7 @@
                                                 id="q916975:48_:flaggedcheckbox" name="q916975:48_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -6131,7 +6094,7 @@
                                                 id="q916975:49_:flaggedcheckbox" name="q916975:49_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -6226,7 +6189,7 @@
                                                 id="q916975:50_:flaggedcheckbox" name="q916975:50_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -6321,7 +6284,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -6418,7 +6381,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -6513,7 +6476,7 @@
                                                 id="q916975:53_:flaggedcheckbox" name="q916975:53_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -6669,7 +6632,7 @@
                                                 id="q916975:54_:flaggedcheckbox" name="q916975:54_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -6764,7 +6727,7 @@
                                                 id="q916975:55_:flaggedcheckbox" name="q916975:55_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -6862,7 +6825,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -6961,7 +6924,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -7136,7 +7099,7 @@
                                                 id="q916975:58_:flaggedcheckbox" name="q916975:58_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -7241,7 +7204,7 @@
                                                 id="q916975:59_:flaggedcheckbox" name="q916975:59_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -7375,7 +7338,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -7474,7 +7437,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -7567,7 +7530,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -7662,7 +7625,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -7761,7 +7724,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -7858,7 +7821,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -7952,7 +7915,7 @@
                                                 id="q916975:66_:flaggedcheckbox" name="q916975:66_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -8042,7 +8005,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -8132,7 +8095,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -8231,7 +8194,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -8321,7 +8284,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -8416,7 +8379,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -8507,7 +8470,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -8596,7 +8559,7 @@
                                                 id="q916975:73_:flaggedcheckbox" name="q916975:73_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -8694,7 +8657,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -8786,7 +8749,7 @@
                                                 id="q916975:75_:flaggedcheckbox" name="q916975:75_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -8907,7 +8870,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -9017,7 +8980,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -9114,7 +9077,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -9125,7 +9088,7 @@
                                             <div class="qtext">
                                                 <p>An ongoing agile project is measured as follows: <br><br><img
                                                         class="img-fluid" role="presentation"
-                                                        src="https://lms.atoha.com/pluginfile.php/9293/question/questiontext/916975/78/1874857/A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-12-03%20lu%CC%81c%2017.45.20.png"
+                                                        src="https://coacao.github.io/PMP/images/q_78.png"
                                                         alt=""><br><br>According to the table, which two of the
                                                     following are the project’s metrics (Assumption: team size remains
                                                     constant for all sprints)? (Choose TWO).</p>
@@ -9221,7 +9184,7 @@
                                                 id="q916975:79_:flaggedcheckbox" name="q916975:79_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -9344,7 +9307,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -9434,7 +9397,7 @@
                                                 id="q916975:81_:flaggedcheckbox" name="q916975:81_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -9537,7 +9500,7 @@
                                                 id="q916975:82_:flaggedcheckbox" name="q916975:82_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -9650,7 +9613,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -9777,7 +9740,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -9864,7 +9827,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -9958,7 +9921,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -10049,7 +10012,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -10148,7 +10111,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -10248,7 +10211,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -10339,7 +10302,7 @@
                                                 id="q916975:90_:flaggedcheckbox" name="q916975:90_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -10444,7 +10407,7 @@
                                                 id="q916975:91_:flaggedcheckbox" name="q916975:91_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -10538,7 +10501,7 @@
                                                 id="q916975:92_:flaggedcheckbox" name="q916975:92_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -10651,7 +10614,7 @@
                                                 id="q916975:93_:flaggedcheckbox" name="q916975:93_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -10746,7 +10709,7 @@
                                                 id="q916975:94_:flaggedcheckbox" name="q916975:94_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -10867,7 +10830,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -11040,7 +11003,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -11138,7 +11101,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -11230,7 +11193,7 @@
                                                 aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -11331,7 +11294,7 @@
                                                 id="q916975:99_:flaggedcheckbox" name="q916975:99_:flagged" value="1"><a
                                                 tabindex="0" class="aabtn" role="button" aria-pressed="true"
                                                 aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -11428,7 +11391,7 @@
                                                 id="q916975:100_:flaggedcheckbox" name="q916975:100_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -11524,7 +11487,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -11642,7 +11605,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -11734,7 +11697,7 @@
                                                 id="q916975:103_:flaggedcheckbox" name="q916975:103_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -11827,7 +11790,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -11923,7 +11886,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -12021,7 +11984,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -12115,7 +12078,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -12205,7 +12168,7 @@
                                                 id="q916975:108_:flaggedcheckbox" name="q916975:108_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -12300,7 +12263,7 @@
                                                 id="q916975:109_:flaggedcheckbox" name="q916975:109_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -12403,7 +12366,7 @@
                                                 id="q916975:110_:flaggedcheckbox" name="q916975:110_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -12498,7 +12461,7 @@
                                                 id="q916975:111_:flaggedcheckbox" name="q916975:111_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -12602,7 +12565,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -12694,7 +12657,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -12792,7 +12755,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -12880,7 +12843,7 @@
                                                 id="q916975:115_:flaggedcheckbox" name="q916975:115_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -12985,7 +12948,7 @@
                                                 id="q916975:116_:flaggedcheckbox" name="q916975:116_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -13101,7 +13064,7 @@
                                                 id="q916975:117_:flaggedcheckbox" name="q916975:117_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -13203,7 +13166,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -13317,7 +13280,7 @@
                                                 id="q916975:119_:flaggedcheckbox" name="q916975:119_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -13410,7 +13373,7 @@
                                                 id="q916975:120_:flaggedcheckbox" name="q916975:120_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -13508,7 +13471,7 @@
                                                 id="q916975:121_:flaggedcheckbox" name="q916975:121_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -13612,7 +13575,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -13714,7 +13677,7 @@
                                                 id="q916975:123_:flaggedcheckbox" name="q916975:123_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -13814,7 +13777,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -13929,7 +13892,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -14028,7 +13991,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -14130,7 +14093,7 @@
                                                 id="q916975:127_:flaggedcheckbox" name="q916975:127_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -14248,7 +14211,7 @@
                                                 id="q916975:128_:flaggedcheckbox" name="q916975:128_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -14348,7 +14311,7 @@
                                                 id="q916975:129_:flaggedcheckbox" name="q916975:129_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -14446,7 +14409,7 @@
                                                 id="q916975:130_:flaggedcheckbox" name="q916975:130_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -14548,7 +14511,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -14646,7 +14609,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -14737,7 +14700,7 @@
                                                 id="q916975:133_:flaggedcheckbox" name="q916975:133_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -14848,7 +14811,7 @@
                                                 id="q916975:134_:flaggedcheckbox" name="q916975:134_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -14935,7 +14898,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -15027,7 +14990,7 @@
                                                 id="q916975:136_:flaggedcheckbox" name="q916975:136_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -15146,7 +15109,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -15243,7 +15206,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -15351,7 +15314,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -15448,7 +15411,7 @@
                                                 id="q916975:140_:flaggedcheckbox" name="q916975:140_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -15560,7 +15523,7 @@
                                                     <p dir="ltr" style="text-align: left;">&nbsp;Nên vai trò của PM về
                                                         nguồn lực (như đính kèm), cần thoả luận để có đủ nguồn lực thực
                                                         hiện dự án.<br></p><img
-                                                        src="https://lms.atoha.com/pluginfile.php/9293/question/generalfeedback/916975/140/1693809/z4986431475967_c7522dcea124d102db8fabcbbee7309b.jpg"
+                                                        src="https://coacao.github.io/PMP/images/q_140.jpg"
                                                         alt="" role="presentation" class="img-fluid">
                                                 </div>
                                                 <div class="rightanswer">The correct answers are: Engage in negotiations
@@ -15585,7 +15548,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -15683,7 +15646,7 @@
                                                 id="q916975:142_:flaggedcheckbox" name="q916975:142_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -15801,7 +15764,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -15893,7 +15856,7 @@
                                                 id="q916975:144_:flaggedcheckbox" name="q916975:144_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -16013,7 +15976,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -16109,7 +16072,7 @@
                                                 id="q916975:146_:flaggedcheckbox" name="q916975:146_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -16209,7 +16172,7 @@
                                                 id="q916975:147_:flaggedcheckbox" name="q916975:147_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -16302,7 +16265,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -16411,7 +16374,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -16502,7 +16465,7 @@
                                                 id="q916975:150_:flaggedcheckbox" name="q916975:150_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -16628,7 +16591,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -16724,7 +16687,7 @@
                                                 id="q916975:152_:flaggedcheckbox" name="q916975:152_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -16821,7 +16784,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -16924,7 +16887,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -17024,7 +16987,7 @@
                                                 id="q916975:155_:flaggedcheckbox" name="q916975:155_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -17162,7 +17125,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -17265,7 +17228,7 @@
                                                 id="q916975:157_:flaggedcheckbox" name="q916975:157_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -17390,7 +17353,7 @@
                                                 id="q916975:158_:flaggedcheckbox" name="q916975:158_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -17488,7 +17451,7 @@
                                                 id="q916975:159_:flaggedcheckbox" name="q916975:159_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -17588,7 +17551,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -17701,7 +17664,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -17835,7 +17798,7 @@
                                                 id="q916975:162_:flaggedcheckbox" name="q916975:162_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -17933,7 +17896,7 @@
                                                 id="q916975:163_:flaggedcheckbox" name="q916975:163_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -18031,7 +17994,7 @@
                                                 id="q916975:164_:flaggedcheckbox" name="q916975:164_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -18133,7 +18096,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -18237,7 +18200,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -18328,7 +18291,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -18426,7 +18389,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -18539,7 +18502,7 @@
                                                 id="q916975:169_:flaggedcheckbox" name="q916975:169_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -18630,7 +18593,7 @@
                                                 id="q916975:170_:flaggedcheckbox" name="q916975:170_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -18730,7 +18693,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -18846,7 +18809,7 @@
                                                 id="q916975:172_:flaggedcheckbox" name="q916975:172_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -18939,7 +18902,7 @@
                                                 id="q916975:173_:flaggedcheckbox" name="q916975:173_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -19037,7 +19000,7 @@
                                                 id="q916975:174_:flaggedcheckbox" name="q916975:174_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -19137,7 +19100,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -19237,7 +19200,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -19337,7 +19300,7 @@
                                                 id="q916975:177_:flaggedcheckbox" name="q916975:177_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -19431,7 +19394,7 @@
                                                 id="q916975:178_:flaggedcheckbox" name="q916975:178_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -19559,7 +19522,7 @@
                                                 aria-pressed="false" aria-label="Flagged"
                                                 title="Flag this question for future reference"><img
                                                     class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/unflagged"
+                                                    src="https://coacao.github.io/PMP/images/unflagged.svg"
                                                     alt="">Flag question</a>
                                         </div>
                                     </div>
@@ -19648,7 +19611,7 @@
                                                 id="q916975:180_:flaggedcheckbox" name="q916975:180_:flagged"
                                                 value="1"><a tabindex="0" class="aabtn" role="button"
                                                 aria-pressed="true" aria-label="Flagged"><img class="questionflagimage"
-                                                    src="https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/flagged"
+                                                    src="https://coacao.github.io/PMP/images/flagged.svg"
                                                     alt="">Remove flag</a>
                                         </div>
                                     </div>
@@ -20866,268 +20829,7 @@
         <footer id="page-footer" class="py-3">
             <div class="container">
                 <div id="course-footer"></div>
-                <script>
-                    //<![CDATA[
-                    var require = {
-                        baseUrl: 'https://lms.atoha.com/lib/requirejs.php/1758184161/',
-                        // We only support AMD modules with an explicit define() statement.
-                        enforceDefine: true,
-                        skipDataMain: true,
-                        waitSeconds: 0,
-
-                        paths: {
-                            jquery: 'https://lms.atoha.com/lib/javascript.php/1758184161/lib/jquery/jquery-3.7.1.min',
-                            jqueryui: 'https://lms.atoha.com/lib/javascript.php/1758184161/lib/jquery/ui-1.14.1/jquery-ui.min',
-                            jqueryprivate: 'https://lms.atoha.com/lib/javascript.php/1758184161/lib/requirejs/jquery-private'
-                        },
-
-                        // Custom jquery config map.
-                        map: {
-                            // '*' means all modules will get 'jqueryprivate'
-                            // for their 'jquery' dependency.
-                            '*': { jquery: 'jqueryprivate' },
-
-                            // 'jquery-private' wants the real jQuery module
-                            // though. If this line was not here, there would
-                            // be an unresolvable cyclic dependency.
-                            jqueryprivate: { jquery: 'jquery' }
-                        }
-                    };
-
-                    //]]>
-                </script>
-                <script src="https://lms.atoha.com/lib/javascript.php/1758184161/lib/requirejs/require.min.js"></script>
-                <script>
-                    //<![CDATA[
-                    M.util.js_pending("core/first");
-                    // require(['core/first'], function () {
-                    //     require(['core/prefetch'])
-                    //         ;
-                    //     M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function (amd) { amd.configure({ "mathjaxurl": "https:\/\/cdn.jsdelivr.net\/npm\/mathjax@3.2.2\/es5\/tex-mml-chtml.js", "mathjaxconfig": "", "lang": "en" }); M.util.js_complete('filter_mathjaxloader/loader'); });;
-                    //     require(["media_videojs/loader"], function (loader) {
-                    //         loader.setUp('en');
-                    //     });;
-
-                    //     M.util.js_pending('theme_boost/loader');
-                    //     require(['theme_boost/loader'], function () {
-                    //         M.util.js_complete('theme_boost/loader');
-                    //     });
-                    //     ;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-1"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-2"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-3"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-4"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-5"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-6"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-7"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-8"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-9"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-10"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-11"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-12"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-13"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-14"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-15"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-16"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-17"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-18"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-19"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-20"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-21"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-22"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-23"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-24"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-25"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-26"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-27"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-28"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-29"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-30"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-31"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-32"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-33"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-34"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-35"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-36"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-37"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-38"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-39"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-40"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-41"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-42"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-43"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-44"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-45"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-46"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-47"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-48"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-49"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-50"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-51"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-52"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-53"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-54"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-55"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-56"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-57"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-58"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-59"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-60"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-61"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-62"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-63"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-64"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-65"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-66"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-67"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-68"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-69"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-70"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-71"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-72"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-73"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-74"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-75"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-76"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-77"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-78"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-79"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-80"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-81"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-82"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-83"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-84"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-85"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-86"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-87"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-88"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-89"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-90"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-91"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-92"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-93"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-94"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-95"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-96"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-97"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-98"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-99"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-100"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-101"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-102"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-103"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-104"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-105"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-106"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-107"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-108"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-109"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-110"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-111"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-112"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-113"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-114"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-115"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-116"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-117"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-118"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-119"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-120"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-121"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-122"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-123"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-124"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-125"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-126"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-127"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-128"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-129"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-130"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-131"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-132"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-133"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-134"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-135"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-136"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-137"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-138"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-139"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-140"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-141"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-142"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-143"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-144"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-145"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-146"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-147"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-148"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-149"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-150"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-151"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-152"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-153"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-154"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-155"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-156"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-157"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-158"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-159"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-160"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-161"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-162"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-163"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-164"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-165"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-166"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-167"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-168"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-169"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-170"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-171"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-172"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-173"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-174"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-175"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-176"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-177"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-178"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-179"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function (amd) { amd.init("question-916975-180"); M.util.js_complete('qtype_multichoice/answers'); });;
-                    //     M.util.js_pending('core/notification'); require(['core/notification'], function (amd) { amd.init(9293, []); M.util.js_complete('core/notification'); });;
-                    //     M.util.js_pending('core/log'); require(['core/log'], function (amd) { amd.setConfig({ "level": "warn" }); M.util.js_complete('core/log'); });;
-                    //     M.util.js_pending('core/page_global'); require(['core/page_global'], function (amd) { amd.init(); M.util.js_complete('core/page_global'); });;
-                    //     M.util.js_pending('core/utility'); require(['core/utility'], function (amd) { M.util.js_complete('core/utility'); });;
-                    //     M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function (amd) { amd.init(1763133792); M.util.js_complete('core/storage_validation'); });
-                    //     M.util.js_complete("core/first");
-                    // });
-                    //]]>
-                </script>
-                <script>
-                    //<![CDATA[
-                    M.yui.add_module({ "core_question_engine": { "name": "core_question_engine", "fullpath": "https:\/\/lms.atoha.com\/lib\/javascript.php\/1758184161\/question\/qengine.js", "requires": ["node", "event"] }, "mod_quiz": { "name": "mod_quiz", "fullpath": "https:\/\/lms.atoha.com\/lib\/javascript.php\/1758184161\/mod\/quiz\/module.js", "requires": ["base", "dom", "event-delegate", "event-key", "core_question_engine"] } });
-
-                    //]]>
-                </script>
-                <script>
-                    //<![CDATA[
-                    M.str = { "moodle": { "lastmodified": "Last modified", "name": "Name", "error": "Error", "info": "Information", "yes": "Yes", "no": "No", "cancel": "Cancel", "show": "Show", "hide": "Hide", "confirm": "Confirm", "areyousure": "Are you sure?", "closebuttontitle": "Close", "unknownerror": "Unknown error", "file": "File", "url": "URL", "collapseall": "Collapse all", "expandall": "Expand all" }, "repository": { "type": "Type", "size": "Size", "invalidjson": "Invalid JSON string", "nofilesattached": "No files attached", "filepicker": "File picker", "logout": "Logout", "nofilesavailable": "No files available", "norepositoriesavailable": "Sorry, none of your current repositories can return files in the required format.", "fileexistsdialogheader": "File exists", "fileexistsdialog_editor": "A file with that name has already been attached to the text you are editing.", "fileexistsdialog_filemanager": "A file with that name has already been attached", "renameto": "Rename to \"{$a}\"", "referencesexist": "There are {$a} links to this file", "select": "Select" }, "admin": { "confirmdeletecomments": "Are you sure you want to delete the selected comment(s)?", "confirmation": "Confirmation" }, "question": { "flagged": "Flagged" }, "quiz": { "functiondisabledbysecuremode": "That functionality is currently disabled", "startattempt": "Start attempt", "timesup": "Time is up!" }, "debug": { "debuginfo": "Debug info", "line": "Line", "stacktrace": "Stack trace" }, "langconfig": { "labelsep": ": " } };
-                    //]]>
-                </script>
-                <script>
-                    //<![CDATA[
-                    (function () {
-                        // M.util.js_pending('random69174d73614c31'); Y.use('mod_quiz', function (Y) { M.mod_quiz.secure_window.init(Y); M.util.js_complete('random69174d73614c31'); });
-                        // M.util.js_pending('random69174d73614c32'); Y.use('core_question_flags', function (Y) { M.core_question_flags.init(Y, "https:\/\/lms.atoha.com\/question\/toggleflag.php", [{ "src": "https:\/\/lms.atoha.com\/theme\/image.php\/edma\/core\/1758184161\/i\/unflagged", "title": "Flag this question for future reference", "alt": "Flagged", "text": "Flag question" }, { "src": "https:\/\/lms.atoha.com\/theme\/image.php\/edma\/core\/1758184161\/i\/flagged", "title": "Remove flag", "alt": "Flagged", "text": "Remove flag" }]); M.util.js_complete('random69174d73614c32'); });
-                        // M.util.js_pending('random69174d73614c33'); Y.use('mod_quiz', function (Y) { M.mod_quiz.secure_window.init_close_button(Y, "https:\/\/lms.atoha.com\/mod\/quiz\/view.php?id=6071"); M.util.js_complete('random69174d73614c33'); });
-                        // M.util.js_pending('random69174d73614c34'); Y.use('mod_quiz', function (Y) { M.mod_quiz.nav.init(Y); M.util.js_complete('random69174d73614c34'); });
-                        // M.util.help_popups.setup(Y);
-                        // M.util.js_pending('random69174d73614c36'); Y.use('mod_quiz', function (Y) { M.mod_quiz.init_review_form(Y); M.util.js_complete('random69174d73614c36'); });
-                        // M.util.js_pending('random69174d73614c37'); Y.use('mod_quiz', function (Y) { M.mod_quiz.secure_window.init_close_button(Y, "https:\/\/lms.atoha.com\/mod\/quiz\/view.php?id=6071"); M.util.js_complete('random69174d73614c37'); });
-                        // M.util.js_pending('random69174d73614c38'); Y.on('domready', function () { M.util.js_complete("init"); M.util.js_complete('random69174d73614c38'); });
-                    })();
-                    //]]>
-                </script>
-
+                <script src="https://coacao.github.io/PMP/js/require.min.js"></script>
             </div>
         </footer>
     </div>

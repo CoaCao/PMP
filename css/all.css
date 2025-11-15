@@ -3511,13 +3511,13 @@ body.h5p-embed #user-notifications {
     border: 1px solid #666;
 }
 .path-mod-quiz .qnbutton.flagged .trafficlight {
-    background: url(https://lms.atoha.com/theme/image.php/edma/quiz/1758184161/navflagged) no-repeat top right;
+    background: url(https://coacao.github.io/PMP/images/navflagged.svg) no-repeat top right;
 }
 .qnbutton.flagged .thispageholder {
-    background: #fff0 url(https://lms.atoha.com/theme/image.php/edma/quiz/1758184161/flag-on) 15px 0 no-repeat;
+    background: #fff0 url(https://coacao.github.io/PMP/images/flag-on.svg) 15px 0 no-repeat;
 }
 .qnbutton.invalidanswer .trafficlight {
-    background-image: url(https://lms.atoha.com/theme/image.php/edma/quiz/1758184161/warningtriangle) !important;
+    background-image: url(https://coacao.github.io/PMP/images/warningtriangle.svg) !important;
 }
 .path-mod-quiz .qnbutton.blocked,
 .path-mod-quiz .qnbutton.notyetanswered,
