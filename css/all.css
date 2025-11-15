@@ -46774,21 +46774,21 @@ img.userpicture {
     background-color: var(--bs-body-bg);
 }
 .path-mod-quiz #mod_quiz_navblock .qnbutton.correct .trafficlight {
-    background-image: url(https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/grade_correct);
+    background-image: url(https://coacao.github.io/PMP/images/grade_correct);
     color: #357a32;
     background-size: 14px;
 }
 .path-mod-quiz #mod_quiz_navblock .qnbutton.blocked .trafficlight {
-    background-image: url(https://lms.atoha.com/theme/image.php/edma/core/1758184161/t/locked);
+    background-image: url(https://coacao.github.io/PMP/images/locked);
 }
 .path-mod-quiz #mod_quiz_navblock .qnbutton.notanswered .trafficlight,
 .path-mod-quiz #mod_quiz_navblock .qnbutton.incorrect .trafficlight {
-    background-image: url(https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/grade_incorrect);
+    background-image: url(https://coacao.github.io/PMP/images/grade_incorrect);
     color: #ca3120;
     background-size: 14px;
 }
 .path-mod-quiz #mod_quiz_navblock .qnbutton.partiallycorrect .trafficlight {
-    background-image: url(https://lms.atoha.com/theme/image.php/edma/core/1758184161/i/grade_partiallycorrect);
+    background-image: url(https://coacao.github.io/PMP/images/grade_partiallycorrect);
     color: #f0ad4e;
     background-size: 14px;
 }
