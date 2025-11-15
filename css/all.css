@@ -74499,97 +74499,97 @@ a.meanmenu-reveal {
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueThin.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueThin.otf) format('opentype');
     font-weight: 100;
     font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueThinItalic.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueThinItalic.otf) format('opentype');
     font-weight: 100;
     font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueUltraLight.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueUltraLight.otf) format('opentype');
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueUltraLightItalic.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueUltraLightItalic.otf) format('opentype');
     font-weight: 200;
     font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueLight.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueLight.otf) format('opentype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueLightItalic.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueLightItalic.otf) format('opentype');
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueRoman.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueRoman.otf) format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueItalic.ttf) format('truetype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueItalic.ttf) format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueMedium.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueMedium.otf) format('opentype');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueMediumItalic.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueMediumItalic.otf) format('opentype');
     font-weight: 500;
     font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueBold.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueBold.otf) format('opentype');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueBoldItalic.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueBoldItalic.otf) format('opentype');
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueHeavy.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueHeavy.otf) format('opentype');
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueHeavyItalic.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueHeavyItalic.otf) format('opentype');
     font-weight: 800;
     font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueBlack.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueBlack.otf) format('opentype');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica Neue';
-    src: url(../fonts/HelveticaNeue/HelveticaNeueBlackItalic.otf) format('opentype');
+    src: url(https://coacao.github.io/PMP/fonts/HelveticaNeue/HelveticaNeueBlackItalic.otf) format('opentype');
     font-weight: 900;
     font-style: italic;
 }
