@@ -83264,3 +83264,10 @@ div.editor_atto_toolbar {
     border: none;
     background: #efefef;
 }
+
+.scrolling_div {
+  height: 500px;
+  border: 1px solid green;
+  padding: 10px;
+  overflow: auto; /* Thuộc tính quan trọng để hiển thị thanh cuộn */
+}
