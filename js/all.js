@@ -37,10 +37,28 @@ document.addEventListener('DOMContentLoaded', function () {
         })
     }
 
+    // display all
+    const diplayAllButton = document.querySelector("#displayAll")
+    if (diplayAllButton) { 
+        diplayAllButton.addEventListener('click', function (event) { 
+            event.preventDefault()
+
+            // Hiển thị hết tất cả
+            allContentDivs.forEach((div) => {
+                div.style.display = 'block' // Ẩn
+            })
+        })
+    }
+
+
     // 2. Định nghĩa hàm xử lý việc hiển thị/ẩn nội dung
     function displayQuestion(questionId) {
         // Ẩn hiện tại
-        showQuestion.style.display = 'none'
+        // showQuestion.style.display = 'none'
+        // Ẩn hết tất cả
+        allContentDivs.forEach((div) => {
+            div.style.display = 'none' // Ẩn
+        })
 
         // Hiển thị DIV có ID khớp với questionId
         showQuestion = document.querySelector(`div[id="${questionId}"]`)
@@ -62,4 +80,5 @@ document.addEventListener('DOMContentLoaded', function () {
         showQuestion.style.display = 'block'
         selectedButton.classList.add('thispage')
     }
+
 })
